@@ -1,0 +1,51 @@
+{
+  "version": "0",
+  "id": "test-1234",
+  "detail-type": "GuardDuty Finding",
+  "source": "aws.guardduty",
+  "account": "047719XXXXX",
+  "time": "2025-12-15T12:00:00Z",
+  "region": "us-east-1",
+  "resources": [],
+  "detail": {
+    "type": "Exfiltration:S3/AnomalousBehavior",
+    "title": "Exfiltration:S3/AnomalousBehavior",
+    "resource": {
+      "s3Bucket": {
+        "name": "victim-data-yeury-perez-silentzero-20251213"
+      }
+    },
+    "service": {
+      "additionalInfo": {
+        "objects": [
+          {"key": "sensitive-file-1.bin"},
+          {"key": "sensitive-file-2.bin"},
+          {"key": "sensitive-file-3.bin"},
+          {"key": "sensitive-file-4.bin"},
+          {"key": "sensitive-file-5.bin"},
+          {"key": "sensitive-file-6.bin"},
+          {"key": "sensitive-file-7.bin"},
+          {"key": "sensitive-file-8.bin"},
+          {"key": "sensitive-file-9.bin"},
+          {"key": "sensitive-file-10.bin"},
+          {"key": "sensitive-file-11.bin"},
+          {"key": "sensitive-file-12.bin"},
+          {"key": "sensitive-file-13.bin"},
+          {"key": "sensitive-file-14.bin"},
+          {"key": "sensitive-file-15.bin"},
+          {"key": "sensitive-file-16.bin"},
+          {"key": "sensitive-file-17.bin"},
+          {"key": "sensitive-file-18.bin"},
+          {"key": "sensitive-file-19.bin"},
+          {"key": "sensitive-file-20.bin"},
+          {"key": "sensitive-file-21.bin"},
+          {"key": "sensitive-file-22.bin"},
+          {"key": "sensitive-file-23.bin"},
+          {"key": "sensitive-file-24.bin"},
+          {"key": "sensitive-file-25.bin"},
+          {"key": "index.html"}
+        ]
+      }
+    }
+  }
+}
